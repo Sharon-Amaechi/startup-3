@@ -1,5 +1,7 @@
 .showcase{
-  background-color: black;
+  background-image: url(../images/6045432.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   padding: 10px 20px;
   height: 650px;
   display: flex;

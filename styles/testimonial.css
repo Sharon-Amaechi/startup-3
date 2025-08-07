@@ -4,7 +4,6 @@
   background-size: cover;
   background-attachment: scroll;
   height: 450px;
- 
 }
 
 .Happy{
@@ -37,7 +36,6 @@ padding: 15px 0px;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  
 }
 
 .users-testimonials p{

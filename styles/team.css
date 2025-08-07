@@ -1,5 +1,6 @@
 .team-page{
-  background-color: black;
+  background-image: url(../images/6045432.jpg) ;
+  background-attachment: scroll;
   height: 800;
   padding: 10px 20px;
   display: flex;
@@ -27,13 +28,16 @@
 
 .profile{
   box-shadow: 2px 2px 5px rgba(170, 170, 170, 0.986);
-  background-color: rgba(87, 57, 41, 0.986);
+  background-color: transparent;
   border-radius: 5px;
+  border: solid;
+  border-width: 1px;
   width: 140px;
   height: 200px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0.5px 0.5px 5px white;
 }
 
 .profile-image{

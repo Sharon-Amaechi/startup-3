@@ -1,5 +1,9 @@
 .pricing-table{
-  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/flat-lay-frame-with-price-tags-black-background.jpg);
+  background-attachment: scroll;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 10px 20px;
 
 }

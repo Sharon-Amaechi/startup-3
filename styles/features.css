@@ -1,5 +1,5 @@
 .features{
-  background-image: url(../images/abstract-black-shape-torn-black-paper.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/grey-background-with-decorative-bats-edges.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
@@ -72,10 +72,6 @@
 
 .features p{
   line-height: 25px;
-}
-
-.useful-symbol{
-
 }
 
 .sub-features{
