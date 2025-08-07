@@ -1,0 +1,145 @@
+/* Nav Bar */
+.nav-bar{
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: whitesmoke;
+  padding: 20px 0px 20px 0px;
+  font-size: x-small;
+
+}
+
+.nav-bar a{
+  text-decoration: none;
+}
+
+/* Hero Section */
+
+
+.hero-container{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/top-view-work-desk-with-drawing-pad-glasses-with-copy-space.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh;
+  padding: 0 20px;
+}
+
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+
+.hero-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 50px;
+  /* height: 500px; */
+  text-align: center;
+}
+
+
+.hero-container p{
+  font-size: 16px;
+  text-align: center;
+}
+
+.hero-container button{
+  padding: 15px 10px 15px 10px ;
+  color: black;
+  background-color: rgb(247, 240, 240);
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  box-shadow: rgba(15, 15, 15, 0.966) 3px 3px 3px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  
+.hero-container{
+  padding: 0 12px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+
+.hero-container p{
+  width: 550px;
+  line-height: 20px;
+}
+
+.hero-container button{
+  margin-top: 30px ;
+}
+
+}
+
+@media (min-width: 1024px) {
+
+h1{
+  font-size: 72px;
+}
+
+.hero-content{
+  gap: 40px;
+  margin-top: 0;
+  height: 600px;
+}
+
+.hero-container p{
+  font-size: 18px;
+  width: 700px;
+  line-height: 30px;
+}
+#hero-startup{
+  font-size: 25px;
+}
+.hero-container button{
+  padding: 15px 20px 15px 20px ;
+  font-size: 17px;
+}
+
+}
+
+@media (min-width: 1440px) {
+
+.nav-bar{
+  gap: 30px;
+  font-size: medium;
+}
+
+h1{
+  font-size: 82px;
+}
+
+.hero-content{
+  gap: 40px;
+  margin-top: 50px;
+  height: 600px;
+}
+
+.hero-container p{
+  font-size: 20px;
+  width: 750px;
+  line-height: 40px;
+}
+
+#hero-startup{
+  font-size: 30px;
+}
+.hero-container button{
+  padding: 15px 20px 15px 20px;
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+}

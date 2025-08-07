@@ -1,0 +1,230 @@
+.contact{
+  background-color: black;
+  height: 690px;
+  padding: 10px 20px;
+
+}
+
+.owners-contact-info{
+  font-size: x-small;
+  margin-bottom: 40;
+} 
+
+.info1{
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.info2{
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.number{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.site{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.address{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.user-contact-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(250, 248, 248);
+  padding: 10 20 10 20;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgb(83, 83, 83) 1px 1px 4px;
+  
+}
+
+.user-contact-info p{
+  font-size: 15px;
+  margin-bottom: 3px;
+  color: black;
+}
+
+.input{
+  padding: 10 15 10 15;
+  border-radius: 7px;
+  border: none;
+  box-shadow: black 1px 1px 4px;
+  margin-bottom: 15px;
+}
+
+.input-message{
+  padding: 20 15 20 15;
+  border-radius: 7px;
+  border: none;
+  box-shadow: black 1px 1px 4px;
+  margin-bottom: 15px;
+  
+}
+
+.copy{
+  display: flex;
+  gap: 10px;
+}
+
+.send-button{
+  margin: 0 auto;
+  padding: 9 25 9 25;
+  background-color: black;
+  border: none;
+  border-radius: 1px;
+}
+
+@media (min-width: 768px) {
+  .contact{
+  background-color: black;
+  height: 420px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.owners-contact-info{
+  font-size: small;
+  margin-bottom: 40;
+  width: 300px;
+} 
+
+.info1{
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.info2{
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.number{
+  margin-bottom: 15px;
+}
+
+.site{
+  margin-bottom: 15px;
+}
+
+.address{
+  margin-bottom: 15px;
+}
+
+.user-contact-info{
+  display: flex;
+  flex: 1;
+  padding: 10 45 10 45;
+}
+
+.user-contact-info p{
+  font-size: 17px;
+  color: black;
+}
+
+.input{
+  padding: 10 35 10 35;
+  border-radius: 7px;
+  border: none;
+  box-shadow: black 1px 1px 4px;
+  margin-bottom: 15px;
+}
+
+.input-message{
+  padding: 20 35 20 35;
+  border-radius: 7px;
+  border: none;
+  box-shadow: black 1px 1px 4px;
+  margin-bottom: 15px;
+}
+
+
+}
+
+@media (min-width: 1024px) {
+  .contact{
+  background-color: black;
+  height: 420px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.owners-contact-info{
+  font-size: small;
+  margin-bottom: 40;
+  width: 400px;
+} 
+
+.info1{
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.info2{
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.number{
+  margin-bottom: 15px;
+}
+
+.site{
+  margin-bottom: 15px;
+}
+
+.address{
+  margin-bottom: 15px;
+}
+
+.user-contact-info{
+  display: flex;
+  width: 200px;
+  padding: 15 45 15 45; 
+}
+
+.user-contact-info p{
+  font-size: 17px;
+  color: black;
+}
+
+.input{
+  padding: 10 35 10 35;
+  border-radius: 7px;
+  border: none;
+  box-shadow: black 1px 1px 4px;
+  margin-bottom: 15px;
+}
+
+.input-message{
+  padding: 20 35 20 35;
+  border-radius: 7px;
+  border: none;
+  box-shadow: black 1px 1px 4px;
+  margin-bottom: 15px;
+}
+
+
+}

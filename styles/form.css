@@ -1,0 +1,194 @@
+.form{
+  background-image: url(../images/6045432.jpg);
+  padding: 10px 20px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text1{
+  font-size: 16px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.text2{
+  font-size: 12px;
+  font-weight: light;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+.sign-up-form{
+  background-color: transparent ;
+  border-radius: 10px;
+  border: solid;
+  border-width: 1px;
+  height: 350px;
+  padding: 10px 10px 10px 10px;
+  justify-content: end;
+  box-shadow: 0.5px 0.5px 5px white;
+  
+}
+
+.sign-up-form p{
+  color: white;
+}
+
+.sign-up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.response{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+
+}
+
+.response p{
+  color: white;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.email{
+  padding:10px 15px 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.email::placeholder{
+  color: rgb(172, 168, 168);
+}
+
+.password{
+  padding:10px 15px 10px 15px;
+  color: rgb(5, 5, 5);
+  border: none;
+  border-radius: 10px;
+}
+
+.password::placeholder{
+  color: rgb(167, 163, 163);
+}
+
+.create-account-button{
+  padding:10px 15px 10px 15px;
+  color: white;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  background-color: rgba(15, 15, 15, 0.959);
+
+}
+
+.twitter-button{
+  padding:10px 20px 10px 20px;
+  color: white;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  background-color: rgba(15, 15, 15, 0.897);
+}
+
+@media (min-width: 768px) {
+.form{
+  padding: 20px 12px;
+  display: flex;
+  align-items: center;
+}
+
+.text1{
+  font-size: 20px;
+  text-align: center;
+}
+
+.text2{
+  font-size: 16px;
+  text-align: center;
+}
+
+.sign-up-form{
+  
+  height: 350px;
+  width: 400px;
+  padding: 10px 10px 10px 10px;
+  justify-content: end;
+}
+
+.sign-up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.response{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+
+}
+
+.response p{
+  color: white;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.email{
+  padding:10px 20px 10px 20px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 300px;
+}
+
+.email::placeholder{
+  color: rgb(172, 168, 168);
+}
+
+.password{
+  padding:10px 20px 10px 20px;
+  color: rgb(5, 5, 5);
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.password::placeholder{
+  color: rgb(167, 163, 163);
+}
+
+.create-account-button{
+  padding:10px 15px 10px 15px;
+  color: white;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  background-color: rgba(15, 15, 15, 0.959);
+}
+
+.twitter-button{
+  padding:10px 20px 10px 20px;
+  color: white;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  background-color: rgba(15, 15, 15, 0.897);
+}
+
+}

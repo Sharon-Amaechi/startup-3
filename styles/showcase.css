@@ -1,0 +1,163 @@
+.showcase{
+  background-color: black;
+  padding: 10px 20px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+
+.top-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.last-work{
+  padding-top: 3px;
+  font-size: small;
+}
+
+.view-button{
+  padding: 5px 15px 5px 15px;
+  background-color: transparent;
+  color: white;
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+
+  font-size: 13px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project-image{
+  width: 270;
+  height: 90;
+  object-fit: cover;
+  margin-top: 20;
+}
+
+.project p{
+  font-size: 13px;
+}
+
+.project-description{
+  padding-top: 5px;
+}
+
+@media (min-width:768px) {
+  .showcase{
+  height: 500px;
+}
+
+.top-details{
+  justify-content: space-around;
+}
+
+.last-work{
+  font-size: 20px;
+}
+.showcase-grid{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows:  1fr 1fr;
+    gap:30px;
+}
+.view-button{
+  padding: 10px 40px 10px 40px;
+  font-size: 14px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.project-image{
+  width: 300;
+  height: 150;
+}
+
+.project p{
+  font-size: 15px;
+}
+}
+
+@media (min-width: 1024px) {
+  .showcase{
+    height: 550px;
+  }
+
+  .top-details{
+    justify-content: space-around;
+  }
+
+  .last-work{
+    font-size: 20px;
+  }
+  .showcase-grid{
+      display: grid;
+      grid-template-columns:  1fr 1fr;
+      grid-template-rows:  1fr 1fr;
+      gap:30px;
+  }
+  .view-button{
+    padding: 10px 40px 10px 40px;
+    font-size: 14px;
+  }
+
+  .project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .project-image{
+    width: 350;
+    height: 150;
+    margin-top: 0;
+  }
+
+  .project p{
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .showcase{
+    height: 650px;
+  }
+
+  .last-work{
+    font-size: 25px;
+  }
+ 
+  
+  .view-button{
+    padding: 10px 40px 10px 40px;
+    font-size: 20px;
+  }
+
+  .project-image{
+    width: 500;
+    height: 200;
+    margin-top: 0;
+  }
+
+  .project p{
+    font-size: 20px;
+  }
+}
