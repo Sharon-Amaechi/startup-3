@@ -1,194 +1,191 @@
-.form{
-  background-image: url(../images/6045432.jpg);
-  padding: 10px 20px;
-  height: 500px;
+
+.form-section{
+  background-image: url(/images/content-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  padding: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
 }
 
-.text1{
-  font-size: 16px;
-  font-weight: bolder;
-  padding-bottom: 10px;
-  text-align: left;
+.form-section-content h3{
+  font-size: 24px;
+margin-bottom: 10px;
 }
 
-.text2{
-  font-size: 12px;
-  font-weight: light;
-  padding-bottom: 10px;
-  text-align: justify;
+.form-section-content p{
+  font-size: 14px;
 }
 
-.sign-up-form{
-  background-color: transparent ;
-  border-radius: 10px;
-  border: solid;
-  border-width: 1px;
-  height: 350px;
-  padding: 10px 10px 10px 10px;
-  justify-content: end;
-  box-shadow: 0.5px 0.5px 5px white;
+form{
+  background-color: white;
+  padding: 15px 15px 20px 15px;
+   border-radius: 15px;
+   width: 250px;
+ 
+}
+#form-sl{
+display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 70px;
+   color: black;
+   font-weight: 800;
+   border-bottom: 2px solid gray;
+   margin-bottom: 10px;
   
 }
 
-.sign-up-form p{
-  color: white;
+#form-sl p{
+   color: black;
+   font-weight: 800;
+   font-size: x-small;
+   padding: 10px;
 }
 
-.sign-up{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+
+input{
+  border: solid 2px gainsboro;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100%;
 }
 
-.response{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 100%;
-
-}
-
-.response p{
-  color: white;
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-
-.email{
-  padding:10px 15px 10px 15px;
-  color: white;
+.create, .login{
   border: none;
-  border-radius: 10px;
-  margin-top: 20px;
+  border-radius: 20px;
+  padding: 10px 15px;
+  width: 100%;
 }
 
-.email::placeholder{
-  color: rgb(172, 168, 168);
+.create{
+  background-color: #25DAC5;
+  margin: 25px auto 15px auto;
 }
 
-.password{
-  padding:10px 15px 10px 15px;
-  color: rgb(5, 5, 5);
-  border: none;
-  border-radius: 10px;
+.login{
+  background-color: #1DA1F2;
+  margin: 10px auto;
 }
 
-.password::placeholder{
-  color: rgb(167, 163, 163);
-}
-
-.create-account-button{
-  padding:10px 15px 10px 15px;
-  color: white;
-  border-radius: 5px;
-  border: solid;
-  border-width: 1px;
-  background-color: rgba(15, 15, 15, 0.959);
-
-}
-
-.twitter-button{
-  padding:10px 20px 10px 20px;
-  color: white;
-  border-radius: 5px;
-  border: solid;
-  border-width: 1px;
-  background-color: rgba(15, 15, 15, 0.897);
-}
-
-@media (min-width: 768px) {
-.form{
-  padding: 20px 12px;
+.or{
   display: flex;
+  justify-content:center;
   align-items: center;
+  gap: 7px;
 }
 
-.text1{
-  font-size: 20px;
-  text-align: center;
-}
-
-.text2{
-  font-size: 16px;
-  text-align: center;
-}
-
-.sign-up-form{
+.or p{
   
-  height: 350px;
-  width: 400px;
-  padding: 10px 10px 10px 10px;
-  justify-content: end;
-}
-
-.sign-up{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.response{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 100%;
-
-}
-
-.response p{
-  color: white;
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-
-.email{
-  padding:10px 20px 10px 20px;
   color: black;
-  border: none;
-  border-radius: 10px;
-  margin-top: 20px;
-  width: 300px;
 }
 
-.email::placeholder{
-  color: rgb(172, 168, 168);
+hr{
+  background-color: black;
+  width: 60%;
 }
 
-.password{
-  padding:10px 20px 10px 20px;
-  color: rgb(5, 5, 5);
-  border: none;
-  border-radius: 10px;
-  width: 300px;
+@media (min-width:768px) {
+.form-section{
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
 }
 
-.password::placeholder{
-  color: rgb(167, 163, 163);
+.form-section-content{
+  width: 750px;
 }
 
-.create-account-button{
-  padding:10px 15px 10px 15px;
-  color: white;
-  border-radius: 5px;
-  border: solid;
-  border-width: 1px;
-  background-color: rgba(15, 15, 15, 0.959);
+form{
+  background-color: white;
+  padding: 15px 15px 20px 15px;
+   border-radius: 15px;
+   width: 80%;
+ 
 }
 
-.twitter-button{
-  padding:10px 20px 10px 20px;
-  color: white;
-  border-radius: 5px;
-  border: solid;
-  border-width: 1px;
-  background-color: rgba(15, 15, 15, 0.897);
 }
+
+
+@media (min-width:1024px) {
+
+  
+.form-section-content h3{
+margin-bottom: 20px;
+font-size: 30px;
+}
+
+.form-section-content p {
+  font-size: 22px;
+}
+
+form{
+  background-color: white;
+  padding: 30px 40px 25px 40px;
+   width: 70%;
+   height:450px;
+}
+
+#form-sl{
+  justify-content:center;
+  gap: 200px;
+   font-weight: 800;
+   font-size: 14px;
+   margin-bottom: 30px auto;
+   padding-bottom: 10px;
+  
+}
+
+#form-sl p{
+   font-size: 14px;
+  
+}
+
+input{
+  padding: 15px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.create, .login{
+  padding: 15px 20px;
+  font-size: 16px;
+}
+
+.create{
+  margin: 35px auto 20px auto;
+}
+
+.login{
+  margin: 20px auto;
+}
+
+}
+
+@media (min-width:1440px) {
+.form-section-content{
+  width: 100%;
+} 
+  
+  
+.form-section-content h3{
+margin-bottom: 25px;
+font-size: 38px;
+
+}
+
+
+
+
+
+
+
 
 }

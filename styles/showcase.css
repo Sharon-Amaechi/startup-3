@@ -1,38 +1,32 @@
-.showcase{
-  background-image: url(../images/6045432.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  padding: 10px 20px;
-  height: 650px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-
+.showcase-section{
+  background-color: #2f1893;
+  padding: 15px;
+  height: 180dvh;
 }
-
-.top-details{
+ 
+.showcase-section-top{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+ 
+.showcase-section-top p{
+  font-size: 14px;
 }
 
-.last-work{
-  padding-top: 3px;
-  font-size: small;
-}
-
-.view-button{
+.showcase-section-top button{
   padding: 5px 15px 5px 15px;
   background-color: transparent;
   color: white;
   border: solid;
   border-width: 1px;
-  border-radius: 5px;
-
-  font-size: 13px;
+  border-radius: 20px;
+  font-size: 12px;
 }
 
-.project{
+.latest-project{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,126 +34,99 @@
 
 }
 
-.project-image{
-  width: 270;
-  height: 90;
+.latest-project img{
+  width: 250;
   object-fit: cover;
   margin-top: 20;
+  border-radius: 7px;
 }
 
-.project p{
+
+.latest-project p{
   font-size: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.project-description{
-  padding-top: 5px;
+.latest-project span{
+  font-size: 16px;
 }
 
+ 
 @media (min-width:768px) {
-  .showcase{
-  height: 500px;
+.showcase-section{
+  height: 120dvh;
+  padding: 20px;
 }
-
-.top-details{
+.showcase-section-top{
   justify-content: space-around;
 }
 
-.last-work{
-  font-size: 20px;
+.showcase-section-top p{
+  font-size: 16px;
 }
-.showcase-grid{
+.latest-project-grid{
     display: grid;
     grid-template-columns:  1fr 1fr;
     grid-template-rows:  1fr 1fr;
-    gap:30px;
+    gap:20px;
 }
-.view-button{
-  padding: 10px 40px 10px 40px;
-  font-size: 14px;
-}
-
-.project{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+.showcase-section-top button{
+  padding: 15px 25px 15px 25px;
+  font-size: 13px;
 }
 
-.project-image{
+.latest-project img{
   width: 300;
-  height: 150;
-}
-
-.project p{
-  font-size: 15px;
 }
 }
 
 @media (min-width: 1024px) {
-  .showcase{
-    height: 550px;
+  .showcase-section{
+    height: 100dvh;
+    padding: 20px;
   }
 
-  .top-details{
-    justify-content: space-around;
-  }
-
-  .last-work{
-    font-size: 20px;
-  }
-  .showcase-grid{
-      display: grid;
-      grid-template-columns:  1fr 1fr;
-      grid-template-rows:  1fr 1fr;
-      gap:30px;
-  }
-  .view-button{
-    padding: 10px 40px 10px 40px;
-    font-size: 14px;
-  }
-
-  .project{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .project-image{
-    width: 350;
-    height: 150;
-    margin-top: 0;
-  }
-
-  .project p{
+  .showcase-section-top p{
+      font-size: 20px;
+    }
+  .latest-project-grid{
+    gap:50px;
+    }
+  .showcase-section-top button{
     font-size: 15px;
+  }
+
+  .latest-project img{
+    width: 350;
   }
 }
 
 @media (min-width: 1440px) {
-  .showcase{
-    height: 650px;
+  .showcase-section{
+    height: 100dvh;
   }
 
-  .last-work{
-    font-size: 25px;
-  }
- 
-  
-  .view-button{
-    padding: 10px 40px 10px 40px;
-    font-size: 20px;
+  .showcase-section-top p{
+      font-size: 23px;
   }
 
-  .project-image{
-    width: 500;
-    height: 200;
-    margin-top: 0;
+  .showcase-section-top button{
+    font-size: 18px;
   }
 
-  .project p{
-    font-size: 20px;
+  .latest-project img{
+    width: 400px;
+  }
+
+
+  .latest-project p{
+    font-size: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .latest-project span{
+    font-size:26px;
   }
 }

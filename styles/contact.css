@@ -1,260 +1,261 @@
-.contact{
-  background-image: url(../images/6045432.jpg);
-  background-attachment: scroll;
-  height: 690px;
-  padding: 10px 20px;
-
+.contact-section{
+  background-image: url(../images/contact-bg.png);
+  padding: 15px;
+  height: 150dvh;
 }
 
-.owners-contact-info{
-  font-size: x-small;
-  margin-bottom: 40;
-} 
-
-.info1{
-  font-size: 26px;
-  text-align: center;
-  margin-bottom: 10px;
+.contact-section-left-side{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.info2{
-  font-size: 16px;
-  text-align: center;
-  line-height: 20px;
-  margin-bottom: 10px;
+.contact-section-left-side h3{
+font-size: 24px;
+text-align: left;
 }
 
-.number{
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 15px;
-}
-
-.site{
-  margin-bottom: 10px;
-  text-align: center;
+.contact-section-left-side span{
   font-size: 14px;
 }
 
-.address{
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 12px;
-}
-
-.user-contact-info{
+.icon-details{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: transparent;
-  padding: 10 20 10 20;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.icon-details img{
+  width: 15px;
+  object-fit: contain;
+}
+
+.icon-details p{
+  font-size: 14px;
+}
+
+.contact-form{
+  background: white;
   border-radius: 10px;
-  border: solid;
-  border-width: 1px;
-  box-shadow: 0.5px 0.5px 5px white; 
-  
+  padding: 20px;
 }
 
-
-.user-contact-info p{
-  font-size: 15px;
-  margin-bottom: 3px;
-  color: white;
+.contact-form label{
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
 }
 
-.input{
-  padding: 10 15 10 15;
-  border-radius: 7px;
-  border: none;
-  box-shadow: black 1px 1px 4px;
-  margin-bottom: 15px;
-}
-
-.input-message{
-  padding: 20 15 20 15;
-  border-radius: 7px;
-  border: none;
-  box-shadow: black 1px 1px 4px;
-  margin-bottom: 15px;
-
-}
-
-.copy{
+.contact-form-top{
   display: flex;
   gap: 10px;
 }
 
-.send-button{
-  margin: 0 auto;
-  padding: 9 25 9 25;
-  background-color: black;
-  border: none;
-  border-radius: 1px;
+.label-input{
+  margin-top: 20px;
 }
 
-@media (min-width: 768px) {
-  .contact{
-  height: 420px;
-  padding: 10px 20px;
+.label-input input{
+  margin-top: 3px;
+  color: black;
+}
+.label-input textarea{
+  margin-top: 3px;
+  border: solid 2px rgb(219, 213, 213);
+}
+
+.message{
+  padding: 10px;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+  color: black;
+}
+
+.checkbox-copy{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+
+}
+
+.checkbox-copy input{
+  width: 25px;
+  margin-bottom: 15px;
+}
+
+.checkbox-copy p{
+  color: black;
+}
+
+.contact-form-bottom button{
+  background-color: #25DAC5;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+}
+
+@media (min-width:768px) {
+.contact-section{
+  height: 100dvh;
+  padding: 20px;
+  display: flex;
+}
+
+.contact-section-left-side{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contact-section-left-side h3{
+font-size: 24px;
+}
+
+.contact-section-left-side span{
+  width: 300px;
+  font-size: 15px;
+}
+
+
+.contact-form{
+  padding: 20px;
+  max-width: 400px;
+  height: 450px;
+ }
+
+#firstname{
+  width: 200px;
+}  
+
+.label-input{
+  margin-top: 30px;
+  }
+
+.label-input input{
+  margin-top: 3px;
+  color: black;
+  padding: 12px;
+}
+    
+.message{
+    height: 150px;
+}
+
+.checkbox-copy p{
+  color: black;
+  font-size: 12px;
+}
+
+.contact-form-bottom{
   display: flex;
   align-items: center;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
 }
 
-.owners-contact-info{
-  font-size: small;
-  margin-bottom: 40;
-  width: 300px;
-} 
 
-.info1{
-  font-size: 26px;
-  margin-bottom: 15px;
 }
 
-.info2{
-  font-size: 16px;
-  text-align: center;
-  line-height: 20px;
-  margin-bottom: 15px;
-}
+@media (min-width:1024px) {
 
-.number{
-  margin-bottom: 15px;
-}
-
-.site{
-  margin-bottom: 15px;
-}
-
-.address{
-  margin-bottom: 15px;
-}
-
-.user-contact-info{
+  .contact-section{
   display: flex;
-  flex: 1;
-  padding: 10 45 10 45;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-.user-contact-info p{
+.contact-section-left-side{
+  margin-bottom: 0px;
+  gap: 25px;
+}
+
+.contact-section-left-side h3{
+font-size: 34px;
+}
+
+.contact-section-left-side span{
   font-size: 17px;
 }
 
-.input{
-  padding: 10 35 10 35;
-  border-radius: 7px;
-  border: none;
-  box-shadow: black 1px 1px 4px;
-  margin-bottom: 15px;
+.contact-form{
+  height: 400px;
+  }
+
+.contact-form label{
+  font-size: 12px;
+  font-weight: 600;
 }
 
-.input-message{
-  padding: 20 35 20 35;
-  border-radius: 7px;
-  border: none;
-  box-shadow: black 1px 1px 4px;
-  margin-bottom: 15px;
+.label-input{
+  margin-top: 20px;
 }
 
+.message{
+  padding: 10px;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+  color: black;
+}
+
+.checkbox-copy input{
+  width: 25px;
+  margin-bottom: 30px;
+}
 
 }
 
-@media (min-width: 1024px) {
-  .contact{
-  height: 420px;
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  gap: 60px;
+@media (min-width:1440px) {
+  .contact-section{
+    height: 80dvh;
+  }
+.contact-section-left-side h3{
+font-size: 40px;
 }
 
-.owners-contact-info{
-  font-size: small;
-  margin-bottom: 40;
-  width: 400px;
-} 
-
-.info1{
-  font-size: 26px;
-  margin-bottom: 15px;
-}
-
-.info2{
-  font-size:20px;
-  text-align: center;
-  line-height: 25px;
-  margin-bottom: 15px;
-}
-
-.number{
-  margin-bottom: 15px;
-  font-size: 19px;
-}
-
-.site{
-  margin-bottom: 15px;
+.contact-section-left-side span{
   font-size: 18px;
 }
 
-.address{
-  margin-bottom: 15px;
-  font-size: 16px;
-}
+.contact-form{
+  height: 500px;
+  }
 
-.user-contact-info{
-  display: flex;
-  width: 200px;
-  padding: 15 45 15 45; 
-}
-
-.user-contact-info p{
+.contact-form label{
   font-size: 17px;
 }
 
-.input{
-  padding: 10 35 10 35;
-  border-radius: 7px;
-  border: none;
-  box-shadow: black 1px 1px 4px;
-  margin-bottom: 15px;
-  
+.label-input{
+  margin-top: 40px;
 }
 
-.input-message{
-  padding: 20 35 20 35;
-  border-radius: 7px;
-  border: none;
-  box-shadow: black 1px 1px 4px;
-  margin-bottom: 15px;
-
-}
+.message{
+  height: 130px;
+  width: 100%;
 }
 
-@media (min-width: 1440px) {
-  .contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-  .user-contact-info{
-    width: 450;
-
-  }
-
-  .info1{
-  font-size:40px;
-  }
-
-  .info2{
-    font-size: 20;
-  }
-
-  .input{
-    width: 400;
-  }
-
-  .input-message{
-    width: 400;
+.checkbox-copy input{
+  width: 25px;
+  margin-bottom: 27px;
 }
+
+.checkbox-copy p{
+  font-size: 18px;
+}
+
+.contact-form-bottom button{
+  padding: 15px 40px;
+  margin-top: 26px;
+
+}
+
 }
