@@ -137,9 +137,9 @@ width: 400px;
 
 form{
   padding: 30px 40px 25px 40px;
-  width: 35%;
+  width: 420px;;
   height:450px;
-  margin-right: 90px;
+  margin-right: 100px;
 }
 
 #form-sl{
@@ -193,13 +193,14 @@ font-size: 38px;
   width: 600px;
 }
 form{
-  width: 560px;
-  margin-right: 230px;
+  width: 500px;
+  margin-right: 450px;
 }
 
 #form-sl{
-  /* padding-right: 0; */
+  gap: 50px;
 }
+
 #form-sl p{
 padding-right: 5px;
 }
