@@ -1,7 +1,7 @@
 .showcase-section{
   background-color: #2f1893;
   padding: 15px;
-  height: 180dvh;
+  height: 190dvh;
 }
  
 .showcase-section-top{
@@ -55,7 +55,7 @@
  
 @media (min-width:768px) {
 .showcase-section{
-  height: 120dvh;
+  height: 130dvh;
   padding: 20px;
 }
 .showcase-section-top{
@@ -83,7 +83,7 @@
 
 @media (min-width: 1024px) {
   .showcase-section{
-    height: 100dvh;
+    height: 110dvh;
     padding: 20px;
   }
 
@@ -104,7 +104,7 @@
 
 @media (min-width: 1440px) {
   .showcase-section{
-    height: 100dvh;
+    height: 110dvh;
   }
 
   .showcase-section-top p{

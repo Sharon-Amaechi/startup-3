@@ -1,7 +1,7 @@
 .team-section{
   background-color: #2f1893;
   padding: 15px;
-  height: 155dvh;
+  height: 160dvh;
 }
 .team-section-top{
   margin-top: 50px;
@@ -62,7 +62,7 @@
 @media (min-width: 768px) {
 .team-section{
   padding: 20px;
-  height: 125dvh;
+  height: 130dvh;
 }
 
 .team-section-top h3{
@@ -111,7 +111,7 @@
 @media (min-width: 1024px) {
 .team-section{
   padding: 20px;  
-  height: 100dvh;
+  height: 110dvh;
 }
 
 .team-section-top h3{
@@ -143,7 +143,7 @@
 
 @media (min-width: 1440px) {
 .team-section{ 
-  height: 140dvh;
+  height: 150dvh;
 }
 .team-section-top{
   margin-top: 240px;
