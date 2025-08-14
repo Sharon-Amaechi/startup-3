@@ -1,9 +1,13 @@
 .content-section{
-  background-image: url(/images/content-bg.png);
+  background-image: linear-gradient( rgba(33, 26, 92, 0.527)), url(/images/content-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60dvh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
   padding: 15px;
 
 }
@@ -74,17 +78,19 @@ font-size: 14px;
 @media (min-width:1440px) {
 
   .content-section-content span{
-margin: 140px 0 30px 0;
-font-size: 24px;
- 
-  }
-.content-section-content h2 {
-  font-size: 58px;
-}
+    padding: 0 30px 50px 0;
+    font-size: 24px;
 
-.content-section-content p {
-  width: 70%;
-  margin-top: 40px;
-}
+  }
+  .content-section-content h2 {
+    padding: 0 30px 20px 0;
+    font-size: 58px;
+    width: 950px;
+  }
+
+  .content-section-content p {
+    width: 1000px;
+    margin-top: 40px;
+  }
 
 }

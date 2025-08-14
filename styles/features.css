@@ -1,6 +1,6 @@
 
 .features-section{
-  background-image: url(../images/features-bg.png);
+  background-image: linear-gradient( rgba(61, 50, 99, 0.589)), url(../images/features-bg.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,50 +87,60 @@ grid-template-columns: 1fr 1fr;
 }
 
 @media (min-width:1024px) {
-  .features-section{
+    .features-section{
 
-padding: 20px;
+  padding: 20px;
 
+  }
+
+  .laptop img{
+    width: 450px;
+
+  }
+
+  .center-content-top h3{
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 30px;
+  }
+
+  .center-content-top p{
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+
+  .center-content-bottom{
+    gap: 10px;
+  }
+
+  .center-content-copy span, .center-content-diamond span{
+    font-weight: 700;
+    margin: 15px auto;
+    font-size: 20px;
+  }
+  .center-content-copy, .center-content-diamond{
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  
+
+  .center-content-copy img, .center-content-diamond img{
+    width: 50px;
+  }
+
+    .pagination img{
+    width: 70px;
+  
+  }
 }
 
-.laptop img{
-  width: 450px;
-
+@media (min-width:1024px) {
+  .center-content-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-.center-content-top h3{
-  margin-bottom: 20px;
-  margin-top: 0;
-  font-size: 38px;
-}
-
-.center-content-top p{
-  margin-bottom: 40px;
-  font-size: 22px;
-}
-
-.center-content-bottom{
-  gap: 10px;
-}
-
-
-.center-content-copy, .center-content-diamond{
-  margin-top: 20px;
-  font-size: 22px;
-}
-
-.center-content-copy span, .center-content-diamond span{
-font-weight: 700;
-margin: 15px auto;
-font-size: 24px;
-}
-
-.center-content-copy img, .center-content-diamond img{
-  width: 50px;
-}
-
-  .pagination img{
-  width: 70px;
- 
-}
-}

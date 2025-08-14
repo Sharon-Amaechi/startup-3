@@ -21,7 +21,7 @@
 /* HERO SECTION */
 
 .hero-section{
-  background-image: url(/images/hero-bg.jpg);
+  background-image: linear-gradient( rgba(146, 2, 146, 0.342), rgba(41, 41, 41, 0.466)), url(/images/hero-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

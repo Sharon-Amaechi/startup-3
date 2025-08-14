@@ -1,5 +1,5 @@
 .pricing-table-section{
-  background-image:url(../images/pricing-table-bg.jpg);
+  background-image: linear-gradient(rgba(44, 63, 101, 0.575)), url(../images/pricing-table-bg.jpg);
   background-size: cover;
   padding: 15px;
   display: flex;

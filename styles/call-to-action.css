@@ -1,5 +1,5 @@
 .call-to-action-section{
-  background-image: url(../images/call-to-action-bg.png);
+  background-image: linear-gradient( rgba(12, 2, 70, 0.486)), url(../images/call-to-action-bg.png);
   padding: 15px;
   background-size: cover;
   height: 90dvh;

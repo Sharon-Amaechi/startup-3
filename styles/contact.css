@@ -1,5 +1,5 @@
 .contact-section{
-  background-image: url(../images/contact-bg.png);
+  background-image: linear-gradient(rgba(25, 26, 82, 0.534)), url(../images/contact-bg.png);
   padding: 15px;
   height: 150dvh;
 }
