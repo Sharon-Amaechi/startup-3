@@ -62,7 +62,7 @@
 @media (min-width: 768px) {
 .team-section{
   padding: 20px;
-  height: 120dvh;
+  height: 125dvh;
 }
 
 .team-section-top h3{
@@ -111,7 +111,7 @@
 @media (min-width: 1024px) {
 .team-section{
   padding: 20px;  
-  height: 90dvh;
+  height: 100dvh;
 }
 
 .team-section-top h3{
@@ -143,7 +143,7 @@
 
 @media (min-width: 1440px) {
 .team-section{ 
-  height: 130dvh;
+  height: 140dvh;
 }
 .team-section-top{
   margin-top: 240px;
